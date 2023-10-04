@@ -64,4 +64,7 @@ footer {text-align: center;background-color: #101010;padding:40px;}
 .dlclass a:hover + .hiddendlclass {justify-content:center; position: relative;
      right: 110px; top:30px;visibility: visible;position: relative; width:0px; height:0px;color:aliceblue;
     text-align: center;}
-    
+.credit {text-align: center;display:flex; justify-content: center;}
+.credit a {justify-content:center; padding-inline: 3px}
+.crehov {color: #909090;}
+.crehov:hover {color:red}  
