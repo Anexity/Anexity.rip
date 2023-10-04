@@ -58,4 +58,5 @@ footer {text-align: center;background-color: #101010;padding:40px;}
 .contacting {display:flex;justify-content: center;}
 .contact1 a {display:inline-block;padding-inline:40px;}
 .contact2 {display:inline-block;justify-content: center;}
+.dlclass {display:flex; justify-content: center;}
     
