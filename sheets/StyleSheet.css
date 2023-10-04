@@ -59,4 +59,9 @@ footer {text-align: center;background-color: #101010;padding:40px;}
 .contact1 a {display:inline-block;padding-inline:40px;}
 .contact2 {display:inline-block;justify-content: center;}
 .dlclass {display:flex; justify-content: center;}
+.dlclass a:hover {filter: blur(2px);}
+.hiddendlclass {visibility: hidden;position:absolute;}
+.dlclass a:hover + .hiddendlclass {justify-content:center; position: relative;
+     right: 110px; top:30px;visibility: visible;position: relative; width:0px; height:0px;color:aliceblue;
+    text-align: center;}
     
