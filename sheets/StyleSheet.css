@@ -44,14 +44,16 @@ ul {color:aliceblue; padding-left: 150px; padding-right: 150px; position:relativ
 .container1 {display:flex; justify-content: center; padding:20px; background-color: #101010;}
 .container2 {display:flex; justify-content: center; padding:20px; padding-inline:7px; 
     background-color: #101010;}
-.pers1, .pers2 {position:relative; display: inline-block; text-align: right;padding-left:40px;
-padding-right:40px}
+.pers1, .pers2 {position:relative; display: inline-block; text-align: center;padding-left:40px;
+padding-right:40px; justify-content: center;}
+.pers2 {justify-items: center;}
+.pers1 {width:13%;height:13%}
 .g1 {padding:5px;width:350px;height:350px;filter: brightness(20%);}
 h2 {text-align: center;color: aliceblue;}
 footer {text-align: center;background-color: #101010;padding:40px;}
 .bottomnav {color:#707070;}
 .bottomnav a {color:#707070}
-.blogentry {padding-top:7x;padding-bottom:7px;padding-left:60px;padding-right:500px;
+.blogentry {padding-top:7x;padding-bottom:7px;padding-left:60px;padding-right:40%;
     border-color:#101010;border-width: 2px;border-style: none;border-style:ridge; background-color: #202020;}
 .orderform {background-color: #101010;}
 .contact1 {display:inline-block;justify-content: center;}
